@@ -1,0 +1,288 @@
+body{
+    text-align: center;
+    color:#1E2222;
+    background:linear-gradient( #d62828, #003049, #eae2b7);
+
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 900;
+}
+h2{
+    color: aliceblue;
+    text-shadow: 3px 3px 1px black;
+}
+#intro{
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px navy;
+}
+
+#heroVideobackground{
+    width: 650px;
+    height: 350px;
+    border-radius: 80px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#nammaBengaluru{
+    width: 350px;
+    font-weight: 550;
+    font-size:larger ;
+}
+.hero{
+    margin-bottom: 100px;
+}
+#flexboxPlaces{
+    display: flex;
+    justify-content: space-around;
+}
+
+#flexboxSilicons{
+    display: flex;
+    justify-content: space-around;
+}
+#flexboxMall{
+    display: flex;
+    justify-content: space-around;
+}
+#funMe{
+    width: 800px;
+    height: 356px;
+    display: flex;
+    margin: 0px auto;
+    border: 2px solid #003049;
+    border-radius: 24px;
+    padding: 8px 8px;
+}
+#flexbox-Btn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+#flexbox-fOne{
+    display: flex;
+}
+
+
+
+.todoTop{
+    margin-top: 23px;
+}
+#introVid{
+    display: flex;
+    justify-content: space-evenly;
+}
+#itpRatings{
+    display: flex;
+    margin:30px auto;
+}
+
+.eyecatchingGardens{
+    width: 370px;
+    height: 520px;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    background-color: #3a5a40;
+    color: #eae2b7;
+    padding-top: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 7px 7px 3px black;
+}
+.eyecatchingSilicons{
+    width: 380px;
+    height: 480px;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    background-color: #d62828;
+    color: #eae2b7;
+    padding-top: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 7px 7px 3px black;
+}
+.eyecatchingMall{
+    width: 390px;
+    height: 490px;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    background-color: #003049;
+    color: #eae2b7;
+    padding-top: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 7px 7px 3px black;
+}
+
+.places-img{
+    width: 280px;
+    height: 190px;
+    border-radius: 30px;
+}
+
+.ratings-btn{
+    margin: 10px;
+    border-radius: 16px;
+    padding:10px 20px;
+    display: flex;
+    border: none;
+}
+.ratings-btn:hover{
+    background-color:gainsboro;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: yellow;
+}
+
+.nowMore-btn{
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 16px;
+    border: none;
+    border:none;
+}
+
+.nowMore-btn:hover{
+    background-color:gainsboro;
+}
+
+
+
+#lalDesc{
+    font-size: 20px;
+    font-weight: 500;
+    padding:0px 20px;
+}
+
+#cubbonDesc{
+    font-size: 17px;
+    font-weight: 540;
+    padding:0px 20px;
+}
+
+#palaceDesc{
+    font-size: 20px;
+    font-weight: 500;
+    padding:0px 20px;
+}
+
+#electornicDesc{
+    font-size: 17px;
+    font-weight: 500;
+    padding:0px 20px;
+}
+#itplDesc{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+#iiscDesc{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+#ubcityDesc{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+#phoneixDesc{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+#commercialDesc{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+#amin-img{
+    width: 200px;
+    border-radius: 16px;
+    margin-right: 50px;
+}
+#meTheGuide{
+    width: 450px;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #1E2222;
+}
+
+#myGuide, #myName{
+    color: #1E2222;
+    text-shadow: none;
+}
+
+
+
+
+#three{
+    color: #eae2b7;
+    font-size: 1.8em;
+}
+footer{
+    background-color: #111;
+    margin-top: 40px;
+    border-radius: 23px;
+}
+/*Styling for the footer container*/
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+/*Adjusting footer nav*/
+.footerNav{
+    margin: 30px 0;
+}
+/*Adjusting the ul to center*/
+.footerNav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+/*Adding style to ul li and a*/
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    font-size: 2.3em;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+/*Adding hover effects to the links*/
+.footerNav ul li a:hover{
+    opacity: 60%;
+    color: #1E2222;
+    border-radius: 16px;
+    padding:10px 20px;
+    background-color:yellow;
+    transform: scale(1.1);
+    box-shadow:3px 3px 15px white;
+}
+
+/*Styling for Fotter Bottom*/
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Styling for P tag Copyright in Footer Bottom*/
+.footerBottom p{
+    color: whitesmoke;
+}
+
+/*Styling for the Designer in Footer Bottom*/
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
